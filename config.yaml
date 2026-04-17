@@ -1,0 +1,13 @@
+# config.yaml
+# -----------
+# Path configuration for the SDSS G-star preprocessing pipeline.
+# Edit these two entries to match your local directory layout.
+# All other pipeline settings are controlled in preprocess_sdss.py.
+
+# Directory containing the CSV chunk files produced from the CasJobs query.
+# Can be overridden at runtime with: python chunk_runner.py --input <path>
+input_dir: "data/CSV_chunks"
+
+# Root directory for all pipeline outputs (csv/, json/, plots/ are created here).
+# Can be overridden at runtime with: python chunk_runner.py --output <path>
+output_dir: "outputs"
