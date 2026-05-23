@@ -133,7 +133,7 @@ for i, row in df.iterrows():
             out_file,
             np.column_stack([wl, fn, err]),
             fmt="%.6f",
-            header="wavelength_A flux_normalized sigma_flux_normalized",
+            header="# wavelength_A flux_normalized sigma_flux_normalized",
             comments="",
         )
 
